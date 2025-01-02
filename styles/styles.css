@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+/* =========== Nav =========== */
+nav {
+    background-color: #029dd5;
+    padding: 0.75rem 0.75rem;
+}
+.logo {
+    width: 10%;
+}
+nav a {
+    color: black;
+    font-weight: bold;
+    margin: 1rem 1rem;
+    text-decoration: none;
+    float: right;
+}
+nav a:hover {
+    color: #f6ca37;
+    text-decoration: underline;
+}
+/* =========== Nav =========== */
+
+/* =========== Hero =========== */
+.hero {
+    /* background: url('images/M-Blade\ CAT\ Diamond\ Tips.jpg') no-repeat center center/cover; */
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero h2 {
+    margin: 0;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-80%, -50%);
+}
+/* =========== Hero =========== */
+
+/* =========== Parallax =========== */
+.parallax {
+background-image: url(images/M2-246\ 011.jpg);
+
+min-height: 200px;
+
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.parallax h1, h3 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    text-align: center;
+    padding: 1.5rem;
+    color: white;
+}
+/* =========== Parallax =========== */
+
+/* =========== New section name here....  =========== */
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+.section h2 {
+    margin-bottom: 1rem;
+    color: #003366;
+}
+.section p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+footer {
+    background-color: #003366;
+    color: #FFD700;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
+.card {
+    display: inline-block;
+    width: 300px;
+    border: 1px solid #00509E;
+    border-radius: 8px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #003366;
+}
+.card h3 {
+    margin: 1rem 0;
+    color: #003366;
+}
